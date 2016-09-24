@@ -17,7 +17,7 @@ public class MateriaDao {
     private static ArrayList<Materia> listaMaterias = new ArrayList<>();
     
     public void crearMateria(Materia materia){
-        listaMaterias.add(materia);
+        listaMaterias.add(materia);  
     }
     
 }

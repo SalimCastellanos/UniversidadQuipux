@@ -21,12 +21,12 @@ public class EstudianteDao {
     }
     
     public void actualizarEstudiante(Estudiante estudiante){
-        
-        for(int i = 0; i<listaEstudiantes.size(); i++ ){
-        
-            if(listaEstudiantes.get(i).getIdentificacion().equals(estudiante.getIdentificacion())){
             
-                listaEstudiantes.set(i, estudiante);
+        for(int j = 0; j<listaEstudiantes.size(); j++ ){
+        
+            if(listaEstudiantes.get(j).getIdentificacion().equals(estudiante.getIdentificacion())){
+            
+                listaEstudiantes.set(j, estudiante);
             
             }
             
